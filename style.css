@@ -1,0 +1,24 @@
+ol{
+    width:500px;
+    background-color: chartreuse;
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style-type:none;
+}
+a{
+   text-decoration: none;
+   color: darkgreen; 
+   display: block;
+   padding: 10px;
+}
+.active{
+    font-weight: bold;
+}
+a:hover{
+    box-shadow: 5px 5px 5px rgb(255, 248, 115);
+    
+
+}
